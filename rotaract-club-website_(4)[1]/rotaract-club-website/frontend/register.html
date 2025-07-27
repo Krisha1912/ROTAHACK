@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register - Rotaract Club</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header>
+  <h1>Rotaract Club of New LJIET</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="events.html">Events</a>
+    <a href="media.html">Media</a>
+    <a href="contact.html">Contact</a>
+    <a href="login.html">Login</a>
+    <a href="ragister.html">ragister</a>
+  </nav>
+</header>
+
+<body>
+  <h2>Register as Member</h2>
+  <form method="POST" action="/register">
+    <label>Name</label><br />
+    <input type="text" name="name" required /><br />
+    <label>Email</label><br />
+    <input type="email" name="email" required /><br />
+    <label>Password</label><br />
+    <input type="password" name="password" required /><br /><br />
+    <button type="submit">Register</button>
+  </form>
+</body>
+<footer class="bg-indigo-900 text-white px-6 py-10 mt-12">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- 👑 Rotaract Club Info -->
+    <div>
+      <h3 class="text-2xl font-bold mb-2">Rotaract Club</h3>
+      <p class="text-sm leading-relaxed text-indigo-100">
+        A community of leaders and changemakers. We serve, connect, and create impact—from campus to society.
+      </p>
+    </div>
+
+    <!-- 📌 Quick Links -->
+    <div>
+      <h3 class="text-xl font-semibold mb-3">Quick Links</h3>
+      <ul class="space-y-2 text-indigo-100">
+        <li><a href="#who" class="hover:text-white">Who We Are</a></li>
+        <li><a href="#eventfuel" class="hover:text-white">EventFuel</a></li>
+        <li><a href="#join" class="hover:text-white">Become a Rotaractor</a></li>
+        <li><a href="#contact" class="hover:text-white">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- 🌐 Social Icons -->
+    <div>
+      <h3 class="text-xl font-semibold mb-3">Stay Connected</h3>
+      <div class="flex space-x-4 text-indigo-100">
+        <a href="https://www.linkedin.com/company/rotaract-club-of-newlj/"><img src="images/facebook.svg" alt="Facebook" class="h-6 w-6 hover:scale-110 transition"></a>
+        <a href="https://www.instagram.com/rc_nljiet?igsh=ZWtldHkwNXN5ZzNx"><img src="images/instagram.svg" alt="Instagram" class="h-6 w-6 hover:scale-110 transition"></a>
+        <a href="https://www.linkedin.com/company/rotaract-club-of-newlj/"><img src="images/linkedin.svg" alt="LinkedIn" class="h-6 w-6 hover:scale-110 transition"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 📜 Bottom Line -->
+  <div class="text-center text-sm text-indigo-200 mt-10">
+    &copy; 2025 Rotaract Club. Designed with 💜 by Manpreet.
+  </div>
+</footer>
+</html>

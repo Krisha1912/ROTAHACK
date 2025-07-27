@@ -1,0 +1,123 @@
+body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f7fa;
+      color: #333;
+    }
+header {
+  background: #a3c4e8;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(13, 47, 237);
+  margin: 0 10px;
+  text-decoration: none;
+}
+.logo{
+  color:rgb(231, 236, 236);
+  height: 20vh;
+  
+}
+
+   main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px 20px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-info,
+.contact-form {
+  flex: 1 1 400px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  animation: fadeIn 1s ease;
+}
+
+
+    h2 {
+      color: #0d47a1;
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-top: 12px;
+      font-weight: 500;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #0d47a1;
+      outline: none;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #0d47a1;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #08306b;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+    }
+
+    .contact-info a {
+      color: #0d47a1;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+   footer {
+      background-color: #0d47a1;
+      color: #fff;
+      text-align: center;
+      padding: 30px 20px;
+      
+      font-size: 0.95rem;
+    }
+
+    footer a {
+      color: #bbdefb;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }

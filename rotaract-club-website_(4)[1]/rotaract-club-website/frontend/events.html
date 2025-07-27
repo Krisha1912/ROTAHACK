@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Events | Rotaract Club of New LJIET</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="assets/css/event.css">
+ <style>
+ 
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <div class="logo">R</div>
+      <div class="logo" style="background: rgba(116, 185, 255, 0.3);">L</div>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="events.html">Events</a>
+      <a href="media.html">Media</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="event-intro">
+    <div class="container">
+      <h1 class="event-heading">✨ Our Moments of Impact</h1>
+      <p class="event-description">
+        At Rotaract Club of NEW LJIET, every event is more than a date on the calendar—it's a story waiting to be told. 
+        From clean-up drives to tech workshops, cultural fests to blood donation camps, we craft experiences that empower, inspire, and unite.
+      </p>
+      <p class="event-description">
+        Our events celebrate the passion of our members, the spirit of our campus, and the heartbeat of our community. 
+        Scroll down to explore how we turn ideas into action, and moments into memories.
+      </p>
+    </div>
+  </section>
+
+  <div class="events-container">
+    <div class="event-card" onclick="openModal(0)">
+      <div class="event-image-placeholder">
+        <div>
+          <i class="fas fa-broom" style="font-size: 3rem; margin-bottom: 15px;"></i>
+           <img src="swachh_bharat.jpg" alt="">
+        </div>
+      </div>
+      <div class="event-card-content">
+        <h3>Swachh Bharat Abhiyan</h3>
+        <p class="event-preview">A community cleanup initiative that brought together volunteers to promote hygiene and public cleanliness...</p>
+        <span class="event-badge">Community Service</span>
+      </div>
+    </div>
+
+    <div class="event-card" onclick="openModal(1)">
+      <div class="event-image-placeholder">
+        <div>
+          <i class="fas fa-hand-holding-heart" style="font-size: 3rem; margin-bottom: 15px;"></i>
+          <img src="cloth_donating.jpg" alt="">
+        </div>
+      </div>
+      <div class="event-card-content">
+        <h3>Cloth & Stationery Donation</h3>
+        <p class="event-preview">A heartwarming outreach event where we collected and distributed essential items to those in need...</p>
+        <span class="event-badge">Charity</span>
+      </div>
+    </div>
+
+    <div class="event-card" onclick="openModal(2)">
+      <div class="event-image-placeholder">
+        <div>
+          <i class="fas fa-tint" style="font-size: 3rem; margin-bottom: 15px;"></i>
+          <img src="blood_donation.jpg" alt="">
+        </div>
+      </div>
+      <div class="event-card-content">
+        <h3>Blood Donation Camp</h3>
+        <p class="event-preview">A life-saving initiative where members and volunteers came together to donate blood for a noble cause...</p>
+        <span class="event-badge">Healthcare</span>
+      </div>
+    </div>
+
+    <div class="event-card" onclick="openModal(3)">
+      <div class="event-image-placeholder">
+        <div>
+          <i class="fas fa-code" style="font-size: 3rem; margin-bottom: 15px;"></i>
+          <img src="technical.jpg" alt="">
+        </div>
+      </div>
+      <div class="event-card-content">
+        <h3>Technical Workshop</h3>
+        <p class="event-preview">An engaging technical event featuring hackathons, coding challenges, and skill development sessions...</p>
+        <span class="event-badge">Technology</span>
+      </div>
+    </div>
+
+    <div class="event-card" onclick="openModal(4)">
+      <div class="event-image-placeholder">
+        <div>
+          <i class="fas fa-briefcase" style="font-size: 3rem; margin-bottom: 15px;"></i>
+          <img src="placement.jpg" alt="">
+        </div>
+      </div>
+      <div class="event-card-content">
+        <h3>Placement Bootcamp</h3>
+        <p class="event-preview">A comprehensive career preparation program with resume building, mock interviews, and skill sessions...</p>
+        <span class="event-badge">Career</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="eventModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="modalImage" src="" alt="Event Image" />
+      <div class="modal-body">
+        <h2 id="modalTitle"></h2>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <section class="events-feel-different">
+    <div class="container">
+      <h2 class="section-title">🌈 Why Our Events Feel Different</h2>
+
+      <div class="event-difference-grid">
+        <div class="event-feature">
+          <h3>Authenticity meets innovation</h3>
+          <p>Each event reflects our core values—service, creativity, and digital craftsmanship that makes a lasting impact.</p>
+        </div>
+
+        <div class="event-feature">
+          <h3>Made with heart, told with flair</h3>
+          <p>From posters to webpages, every detail carries our signature blend of professionalism and creativity.</p>
+        </div>
+
+        <div class="event-feature">
+          <h3>You belong here</h3>
+          <p>Whether you're a coder, artist, dreamer—or all three—we design these moments for <em>you</em> and your growth.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="events-section">
+  <h2>📅 Upcoming Events</h2>
+  <div class="event-grid">
+
+    <div class="event-card">
+      <img src="assets/images/bood.png" alt="Blood Donation" class="event-image">
+      <div class="event-info">
+        <h3>Blood Donation Camp</h3>
+        <p class="event-date">August 14, 2025</p>
+        <p class="event-description">
+          Annual Valentine's Day blood donation drive in collaboration with local hospitals. 
+          Join us in saving lives and spreading love.
+        </p>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="assets/images/cultural.png" alt="Cultural Fest" class="event-image">
+      <div class="event-info">
+        <h3>Inter-College Cultural Fest</h3>
+        <p class="event-date">September 2–4, 2025</p>
+        <p class="event-description">
+          Three-day cultural extravaganza featuring competitions, performances, and workshops. 
+          Registration opens soon.
+        </p>
+      </div>
+    </div>
+
+    <div class="event-card">
+      <img src="assets/images/tech.png" alt="Tech Challenge" class="event-image">
+      <div class="event-info">
+        <h3>Tech Innovation Challenge</h3>
+        <p class="event-date">October 8–9, 2025</p>
+        <p class="event-description">
+          48-hour hackathon focusing on solutions for social problems. Prizes worth ₹50,000 and internship opportunities.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <footer>
+    <h3 class="footer-title">Rotaract Club of New LJIET</h3>
+    <p class="footer-description">Creating meaningful events, building lasting memories.</p>
+    
+    <div class="social-links">
+      <a href="https://www.instagram.com/rc_nljiet?igsh=ZWtldHkwNXN5ZzNx" class="social-link">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/rotaract-club-of-newlj/" class="social-link">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/rc_nljiet?igsh=ZWtldHkwNXN5ZzNx" class="social-link">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/rotaract-club-of-newlj/" class="social-link">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 Rotaract Club of New LJIET. All rights reserved.</p>
+      <p>Empowering communities, one event at a time.</p>
+    </div>
+  </footer>
+
+  <script>
+    const events = [
+      {
+        title: "Swachh Bharat Abhiyan",
+        image: "",
+        description: "A community cleanup event held by the Rotaract Club that brought together over 100 volunteers to promote hygiene and public cleanliness. Our members worked tirelessly to clean public spaces, parks, and streets while raising awareness about environmental responsibility. This initiative not only beautified our community but also inspired others to take ownership of their surroundings. The event demonstrated our commitment to social service and environmental stewardship."
+      },
+      {
+        title: "Cloth & Stationery Donation",
+        image: "",
+        description: "A heartwarming outreach event where we collected and distributed clothes and school supplies to underprivileged children in nearby areas. Over 500 items including clothing, books, pens, and educational materials were donated by our generous members and supporters. This initiative directly impacted the lives of 150+ children, helping them continue their education with dignity. The smiles on the children's faces made all our efforts worthwhile."
+      },
+      {
+        title: "Blood Donation Camp",
+        image: "",
+        description: "A life-saving initiative organized in collaboration with local hospitals and the Red Cross. Over 150 blood units were donated during this camp, potentially saving up to 450 lives. Our members, along with college students and faculty, participated enthusiastically despite their busy schedules. The event raised awareness about the importance of regular blood donation and established our club as a reliable partner for healthcare initiatives in the community."
+      },
+      {
+        title: "Technical Workshop",
+        image: "",
+        description: "An engaging technical event featuring hackathons, coding challenges, and problem-solving sessions designed to enhance students' technical skills. Over 200 participants from various engineering disciplines took part in workshops covering web development, mobile app creation, and emerging technologies. Industry experts shared insights about current trends and career opportunities. The event successfully bridged the gap between academic learning and practical application."
+      },
+      {
+        title: "Placement Bootcamp",
+        image: "",
+        description: "A comprehensive bootcamp designed to prepare students for campus placements with resume building workshops, mock interviews, and aptitude test sessions. Over 300 students benefited from this intensive 3-day program that covered everything from technical interview preparation to soft skills development. Industry professionals and HR experts conducted sessions on current recruitment trends and expectations. The bootcamp resulted in a 40% improvement in placement success rates among participants."
+      }
+    ];
+
+    function openModal(index) {
+      const modal = document.getElementById("eventModal");
+      const modalImage = document.getElementById("modalImage");
+      
+      // Create placeholder for image
+      const placeholder = document.createElement('div');
+      placeholder.className = 'event-image-placeholder';
+      placeholder.style.height = '300px';
+      
+      const icons = ['fas fa-broom', 'fas fa-hand-holding-heart', 'fas fa-tint', 'fas fa-code', 'fas fa-briefcase'];
+      const labels = ['Community Service', 'Donation Drive', 'Life Saving', 'Innovation', 'Career Development'];
+      
+      placeholder.innerHTML = `
+        <div>
+          <i class="${icons[index]}" style="font-size: 4rem; margin-bottom: 15px;"></i>
+          <br>${labels[index]}
+        </div>
+      `;
+      
+      modalImage.style.display = 'none';
+      modalImage.parentNode.insertBefore(placeholder, modalImage);
+      
+      document.getElementById("modalTitle").innerText = events[index].title;
+      document.getElementById("modalDescription").innerText = events[index].description;
+      modal.style.display = "block";
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById("eventModal");
+      const placeholder = modal.querySelector('.event-image-placeholder');
+      if (placeholder) {
+        placeholder.remove();
+      }
+      document.getElementById("modalImage").style.display = 'block';
+      modal.style.display = "none";
+      document.body.style.overflow = 'auto';
+    }
+
+    // Close modal when clicking outside
+    window.onclick = function(event) {
+      const modal = document.getElementById("eventModal");
+      if (event.target == modal) {
+        closeModal();
+      }
+    };
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeModal();
+      }
+    });
+  </script>
+</body>
+</html>
